@@ -2,8 +2,7 @@ FROM ubuntu:16.04
 
 RUN adduser --quiet --disabled-password qtuser
 
-RUN apt-get update
-RUN apt-get install -y \
+RUN apt-get update && install -y \
 	python3-pip \
 	python3-pyqt5
 
