@@ -1,3 +1,9 @@
+A small showcase of PyQT5 app
+The app accepts URL as input and returns some stats of the page:
+    - Each word's frequency
+    - Longest word
+    - Most common letter
+
 BUILD THE DOCKER IMAGE:
 docker build -t page-stats .
 
